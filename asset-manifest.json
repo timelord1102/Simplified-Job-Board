@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.407c9966.css",
+    "main.js": "/static/js/main.8548d541.js",
+    "static/js/592.a9a2e180.chunk.js": "/static/js/592.a9a2e180.chunk.js",
+    "static/media/Cyber Grind (Ultrakill Soundtrack).mp3": "/static/media/Cyber Grind (Ultrakill Soundtrack).ef24dd4fa7b63a535239.mp3",
+    "static/media/Background.jpeg": "/static/media/Background.8edd808b20161b1ea36a.jpeg",
+    "static/media/VCR_OSD_MONO_1.001.ttf": "/static/media/VCR_OSD_MONO_1.001.10cf96d54dcd9af0486c.ttf",
+    "index.html": "/index.html",
+    "main.407c9966.css.map": "/static/css/main.407c9966.css.map",
+    "main.8548d541.js.map": "/static/js/main.8548d541.js.map",
+    "592.a9a2e180.chunk.js.map": "/static/js/592.a9a2e180.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.407c9966.css",
+    "static/js/main.8548d541.js"
+  ]
+}
