@@ -1,38 +1,129 @@
+@font-face {
+  font-family: 'VCR_OSD_MONO';
+  src: url('./Font/VCR_OSD_MONO_1.001.ttf') format('truetype');
+}
+
+::selection {
+  background-color: #9b0000;
+  color: #000000;
+}
+::moz-selection {
+  background-color: #9b0000;
+  color: #000000;
+}
+
 .App {
   text-align: center;
+  font-family: 'VCR_OSD_MONO', monospace;
+  text-shadow: 2px 2px 2px #000;
+  color: #9b0000;
+  border: 2px solid #9b0000;
+  margin: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  background: url('./Images/Background.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  background-color: #000;
+  height: webkit-fill-available;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Jobs {
+  width: 50%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 0 auto;
+  border: 2px solid #9b0000;
+  background-color: #000000a6;
+  backdrop-filter: blur(10px);
+  margin-top: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.apply {
+  display: flex;
+  font-family: 'VCR_OSD_MONO', monospace;
+  background-color: #9b0000;
+  border: 1px solid #9b0000;
+  box-shadow: 2px 2px 2px #000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.apply:hover {
+  background-color: #00000000;
+  color: #9b0000;
+  cursor: pointer;
+  text-shadow: 2px 2px 2px #000000;
+  backdrop-filter: blur(10px);
+}
+
+.sponsorDrop {
+  position: relative;
+  display: inline-block;
+}
+
+.sponsorship {
+  width: 200px;
+  color: #9b0000;;
+  font-family: 'VCR_OSD_MONO', monospace;
+  background-color: #00000000;
+  outline: 1px solid #9b0000;
+  border: none;
+  backdrop-filter: blur(10px);
+  text-shadow: 2px 2px 2px #000;
+}
+
+.sponsorshipContent{
+  font-size: 12px;
+  display: none;
+  width: 200px;
+  position: absolute;
+  background-color: #00000000;
+  backdrop-filter: blur(10px);
+  outline: 1px solid #9b0000;
+  z-index: 1;
+  margin: 0;
+  
+}
+
+.sponsorDrop:hover .sponsorshipContent {
+  display: block
+  
+}
+
+.sponsorship:hover {
+  background-color: #9b0000;
+  color: #000000;
+  cursor: pointer;
+}
+
+.sponsorshipContent p {
+  color: #9b0000;
+  font-family: 'VCR_OSD_MONO', monospace;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.sponsorshipContent p:hover {
+  background-color: #9b0000;
+  color: #000000;
+  cursor: pointer;
+}
+
+.play {
+  display: flex;
+  position: fixed;
+  font-family: 'VCR_OSD_MONO', monospace;
+  background-color: none;
+  border: none;
+  text-shadow: 2px 2px 2px #000;
+  top: -35px;
+  left: 8px;
+  cursor: pointer;
+}
+
+.title {
+  position: static;
+  top: -35px;
 }
