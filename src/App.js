@@ -53,7 +53,7 @@ function App() {
           <h3>{job.title}</h3>
           <h4>{job.company}</h4>
           <h5>
-            <button className = 'apply' onClick={() => window.open(job.url, '_blank')}>APPLY</button>
+            <button className = 'apply' onClick={() => window.open(job.url)}>APPLY</button>
           </h5>
           
         </li>
