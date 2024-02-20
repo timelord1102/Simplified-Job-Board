@@ -1,7 +1,7 @@
 class Job {
     constructor(data) {
         this.company = data.company_name;
-        this.locations = data.locations;
+        this.locations = data.locations.map(location => location.toLowerCase());
         this.title = data.title;
         this.url = data.url;
         this.date_posted = data.date_posted;
