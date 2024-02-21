@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Simplified-Job-Board/static/css/main.0b1a13c8.css",
-    "main.js": "/Simplified-Job-Board/static/js/main.63a78c1b.js",
-    "static/js/592.a9a2e180.chunk.js": "/Simplified-Job-Board/static/js/592.a9a2e180.chunk.js",
+    "main.css": "/Simplified-Job-Board/static/css/main.703dc8e9.css",
+    "main.js": "/Simplified-Job-Board/static/js/main.69093ee1.js",
+    "static/js/453.61f8fc72.chunk.js": "/Simplified-Job-Board/static/js/453.61f8fc72.chunk.js",
     "static/media/Cyber Grind (Ultrakill Soundtrack).mp3": "/Simplified-Job-Board/static/media/Cyber Grind (Ultrakill Soundtrack).ef24dd4fa7b63a535239.mp3",
     "static/media/Background.jpeg": "/Simplified-Job-Board/static/media/Background.8edd808b20161b1ea36a.jpeg",
     "static/media/VCR_OSD_MONO_1.001.ttf": "/Simplified-Job-Board/static/media/VCR_OSD_MONO_1.001.10cf96d54dcd9af0486c.ttf",
     "index.html": "/Simplified-Job-Board/index.html",
-    "main.0b1a13c8.css.map": "/Simplified-Job-Board/static/css/main.0b1a13c8.css.map",
-    "main.63a78c1b.js.map": "/Simplified-Job-Board/static/js/main.63a78c1b.js.map",
-    "592.a9a2e180.chunk.js.map": "/Simplified-Job-Board/static/js/592.a9a2e180.chunk.js.map"
+    "main.703dc8e9.css.map": "/Simplified-Job-Board/static/css/main.703dc8e9.css.map",
+    "main.69093ee1.js.map": "/Simplified-Job-Board/static/js/main.69093ee1.js.map",
+    "453.61f8fc72.chunk.js.map": "/Simplified-Job-Board/static/js/453.61f8fc72.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b1a13c8.css",
-    "static/js/main.63a78c1b.js"
+    "static/css/main.703dc8e9.css",
+    "static/js/main.69093ee1.js"
   ]
 }
