@@ -36,12 +36,40 @@ html {
   margin-top: 20px;
 }
 
+.resetContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.reset {
+  display: inline-flex;
+  font-family: 'VCR_OSD_MONO', monospace;
+  position: relative;
+  color: #9b0000;
+  background-color: #00000098;
+  font-size: 12px;
+  padding: 2px 2px;
+  text-shadow: 2px 2px 2px #000;
+  border: 1px solid #9b0000;
+  backdrop-filter: blur(10px);
+}
+
+.reset:hover {
+  background-color: #9b0000;
+  color: #000;
+  cursor: pointer;
+  text-shadow: 2px 2px 2px #000000;
+}
+
 .results {
   display:inline-flex;
   position: absolute;
+  top: -4px;
   font-size: 12px;
+  padding: 5px 5px;
   text-shadow: 2px 2px 2px #000;
-  outline: 2px solid #9b0000;
+  border: 2px solid #9b0000;
 }
 
 .filterContainer {
@@ -201,6 +229,7 @@ html {
   height: 12px;
   width: 12px;
   outline: 1px solid #9b0000;
+  backdrop-filter: blur(10px);
 }
 
 /* On mouse-over, add a grey background color */
